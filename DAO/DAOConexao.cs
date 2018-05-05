@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DAO {
-    class DAOConexao {
+    public class DAOConexao {
 
         // ATRIBUTROS
         private string _stringConexao;
