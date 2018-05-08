@@ -9,7 +9,7 @@ using DAO;
 using System.Data;
 
 namespace BLL {
-    class BLLCategoria {
+    public class BLLCategoria {
 
         // ATRIBUTOS
         public DAOConexao daoConexao;

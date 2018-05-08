@@ -25,7 +25,7 @@ namespace GUI {
         }
 
         private void categoriaToolStripMenuItem_Click(object sender, EventArgs e) {
-            FrmCadastroCategoria janelaCategoria = new FrmCadastroCategoria();
+            FrmCategoria janelaCategoria = new FrmCategoria();
             janelaCategoria.ShowDialog();
             janelaCategoria.Dispose();
         }

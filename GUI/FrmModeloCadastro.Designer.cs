@@ -29,7 +29,6 @@
             this.btnExcluir = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnSalvar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnCancelar = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.panelDados = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btnIncluir
@@ -111,20 +110,11 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // panelDados
-            // 
-            this.panelDados.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.panelDados.Location = new System.Drawing.Point(23, 75);
-            this.panelDados.Name = "panelDados";
-            this.panelDados.Size = new System.Drawing.Size(1075, 469);
-            this.panelDados.TabIndex = 8;
-            // 
             // FrmModeloCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1125, 625);
-            this.Controls.Add(this.panelDados);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.btnExcluir);
@@ -147,6 +137,5 @@
         protected MaterialSkin.Controls.MaterialRaisedButton btnExcluir;
         protected MaterialSkin.Controls.MaterialRaisedButton btnSalvar;
         protected MaterialSkin.Controls.MaterialRaisedButton btnCancelar;
-        private System.Windows.Forms.Panel panelDados;
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DAO {
-    class DadosDaConexao {
+    public class DadosDaConexao {
 
       // CRIA A STRING DE CONEXAO
       public static String StringDeConexao{

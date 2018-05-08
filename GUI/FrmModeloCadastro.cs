@@ -32,7 +32,6 @@ namespace GUI {
             // 2  = preparar os botões para inserir/alterar
             // 3  = preparar a tela para excluir/alterar
 
-            panelDados.Enabled = false;
             btnIncluir.Enabled = false;
             btnLocalizar.Enabled = false;
             btnAlterar.Enabled = false;
@@ -45,7 +44,6 @@ namespace GUI {
                 btnLocalizar.Enabled = true;
             }
             if(op == 2){
-                panelDados.Enabled = true;
                 btnSalvar.Enabled = true;
                 btnCancelar.Enabled = true;
             }
